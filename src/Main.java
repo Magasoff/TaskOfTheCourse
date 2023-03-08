@@ -10,7 +10,7 @@ public class Main {
             System.out.println("Сгенирировать исключение");
             nums[7] = 10;
         } catch (ArrayIndexOutOfBoundsException exc) {
-            System.out.println("Индекс вне пределов досягаемости");
+            System.out.println("Индекс пределов досягаемости");
         }
     }
 }
